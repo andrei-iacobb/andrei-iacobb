@@ -2,7 +2,7 @@
 
 CS student. I build things for the web and self-host everything else.
 
-I run a Kubernetes homelab on Proxmox with HP ProLiant servers, manage 30+ services through GitOps, and build fullstack apps in TypeScript and Python.
+I run a Kubernetes homelab on Proxmox with HP ProLiant servers, manage 30+ services through GitOps, and build fullstack apps.
 
 [![Website](https://img.shields.io/badge/andrei.iacob.co.uk-000?style=flat-square&logo=safari&logoColor=white)](https://andrei.iacob.co.uk)
 
