@@ -2,7 +2,7 @@
 
 CS student. I build things for the web and self-host everything else.
 
-I run a Kubernetes homelab on Proxmox with enterprise HP ProLiant servers, manage 30+ services through GitOps, and build fullstack apps in TypeScript and Python.
+I run a Kubernetes homelab on Proxmox with HP ProLiant servers, manage 30+ services through GitOps, and build fullstack apps in TypeScript and Python.
 
 [![Website](https://img.shields.io/badge/andrei.iacob.co.uk-000?style=flat-square&logo=safari&logoColor=white)](https://andrei.iacob.co.uk)
 
@@ -44,12 +44,11 @@ I run a Kubernetes homelab on Proxmox with enterprise HP ProLiant servers, manag
 
 | | |
 |---|---|
-| [**homeops**](https://github.com/andrei-iacobb/homeops) | GitOps Kubernetes homelab — Talos Linux, Flux CD, Cilium, 30+ self-hosted services |
+| [**homeops**](https://github.com/andrei-iacobb/homeops) | GitOps Kubernetes homelab on Talos Linux with Flux CD, Cilium, 30+ self-hosted services |
 | [**neatplan**](https://github.com/andrei-iacobb/neatplan) | Cleaning management system with real-time tracking and analytics |
-| [**visitor-management-app**](https://github.com/andrei-iacobb/visitor-management-app) | Multi-site visitor check-in platform with Android kiosks |
 | [**StaffClock**](https://github.com/andrei-iacobb/StaffClock) | Automated staff clock-in/out tool |
-| [**Informate**](https://github.com/andrei-iacobb/Informate) | AI-powered news summariser |
 | [**LilyDoesntGoLoRa**](https://github.com/andrei-iacobb/LilyDoesntGoLoRa) | ESP32 repurposed from Meshtastic into something useful |
+| [**Informate**](https://github.com/andrei-iacobb/Informate) | AI-powered news summariser *(wip)* |
 | [**sharerr**](https://github.com/andrei-iacobb/sharerr) | Media sharing for the *arr stack *(wip)* |
 | [**replicarr**](https://github.com/andrei-iacobb/replicarr) | Config sync across *arr instances *(wip)* |
 | [**amp-editor-mac**](https://github.com/andrei-iacobb/amp-editor-mac) | Yamaha amp editor clone for macOS *(wip)* |
