@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Andrei Iacob, software developer and systems builder</title>
+  <desc id="desc">A dark technical banner showing Andrei's build, ship, run approach.</desc>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f47a4f"/>
+      <stop offset="1" stop-color="#d5461a"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#343840" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="328" rx="22" fill="#11151a" stroke="#343840" stroke-width="2"/>
+  <path d="M716 1H1178C1189 1 1199 11 1199 23V307C1199 319 1189 329 1177 329H652Z" fill="#171b21"/>
+  <path d="M716 1H1178C1189 1 1199 11 1199 23V307C1199 319 1189 329 1177 329H652Z" fill="url(#grid)" opacity="0.7"/>
+
+  <rect x="54" y="55" width="6" height="220" rx="3" fill="url(#accent)"/>
+  <text x="92" y="76" fill="#9ba0a8" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="2.5">SOFTWARE / INFRASTRUCTURE / OPERATIONS</text>
+  <text x="88" y="153" fill="#f5f1e8" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700" letter-spacing="-2">Andrei Iacob</text>
+  <text x="91" y="199" fill="#c8c3ba" font-family="Arial, Helvetica, sans-serif" font-size="21">I build software and run the systems behind it.</text>
+
+  <g font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">
+    <rect x="91" y="236" width="188" height="32" rx="16" fill="#191e24" stroke="#343840"/>
+    <text x="111" y="257" fill="#9ba0a8">PRODUCT ENGINEERING</text>
+    <rect x="290" y="236" width="192" height="32" rx="16" fill="#191e24" stroke="#343840"/>
+    <text x="310" y="257" fill="#9ba0a8">SELF-HOSTED INFRA</text>
+    <rect x="493" y="236" width="92" height="32" rx="16" fill="#191e24" stroke="#343840"/>
+    <text x="513" y="257" fill="#9ba0a8">MOBILE</text>
+  </g>
+
+  <g transform="translate(754 48)" font-family="Arial, Helvetica, sans-serif">
+    <text x="0" y="13" fill="#9ba0a8" font-size="12" font-weight="700" letter-spacing="2.4">FROM IDEA TO UPTIME / 2026</text>
+    <rect x="0" y="36" width="382" height="210" rx="16" fill="#11151a" fill-opacity="0.86" stroke="#343840"/>
+    <path d="M61 132H191M191 132H321" stroke="#565b63" stroke-width="2" stroke-dasharray="5 7"/>
+    <circle cx="61" cy="132" r="17" fill="#d5461a"/>
+    <circle cx="191" cy="132" r="17" fill="#191e24" stroke="#f47a4f" stroke-width="3"/>
+    <circle cx="321" cy="132" r="17" fill="#191e24" stroke="#e6a17d" stroke-width="3"/>
+    <circle cx="61" cy="132" r="4" fill="#f5f1e8"/>
+    <circle cx="191" cy="132" r="4" fill="#f47a4f"/>
+    <circle cx="321" cy="132" r="4" fill="#e6a17d"/>
+
+    <g fill="#747982" font-size="11" font-weight="700" letter-spacing="1.5">
+      <text x="49" y="88">01</text>
+      <text x="179" y="88">02</text>
+      <text x="309" y="88">03</text>
+    </g>
+    <g fill="#f5f1e8" font-size="16" font-weight="700" letter-spacing="1.4" text-anchor="middle">
+      <text x="61" y="183">BUILD</text>
+      <text x="191" y="183">SHIP</text>
+      <text x="321" y="183">RUN</text>
+    </g>
+    <g fill="#9ba0a8" font-size="11" text-anchor="middle">
+      <text x="61" y="203">product</text>
+      <text x="191" y="203">production</text>
+      <text x="321" y="203">platform</text>
+    </g>
+  </g>
+</svg>

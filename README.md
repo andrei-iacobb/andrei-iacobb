@@ -1,52 +1,58 @@
-# Andrei Iacob
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-light.svg">
+  <img alt="Andrei Iacob - software, infrastructure and operations" src="./assets/profile-light.svg" width="100%">
+</picture>
 
-Software developer in Bury St Edmunds, UK, and Computer Science student at Anglia Ruskin University.
+<p align="center">
+  <a href="https://andrei.iacob.co.uk"><strong>Portfolio ↗</strong></a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://linkedin.com/in/andreigiacob">LinkedIn ↗</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="mailto:andrei@iacob.co.uk">Email ↗</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://git.iacob.co.uk/andrei">Forgejo ↗</a>
+</p>
 
-I build web apps and look after the servers they run on, often in the same week. My work ranges from commissioned operations software to self-hosted infrastructure, with a preference for owning a project from its first commit to production.
+Software developer working across product, infrastructure and operations. I build tools for real teams and own the path beneath them, from the first workflow to the production cluster.
 
-[Portfolio](https://andrei.iacob.co.uk) · [LinkedIn](https://linkedin.com/in/andreigiacob) · [Email](mailto:andrei@iacob.co.uk) · [Forgejo](https://git.iacob.co.uk/andrei)
+Based in Bury St Edmunds, UK, while completing a BSc in Computer Science at Anglia Ruskin University.
 
-## Current focus
+## Shipping now
 
-- Building commissioned multi-site visitor and fleet management platforms
-- Taking a swipe-first fashion discovery app through TestFlight
-- Improving the Kubernetes platform that runs my own services
-- Completing a BSc in Computer Science
+| `01 / VISITOR MANAGEMENT` | `02 / FLEET MANAGEMENT` | `03 / SWISH` |
+|:---|:---|:---|
+| Multi-site check-in, contractor validation and Android kiosk workflows | Live vehicle tracking, driver apps and customer-facing operations tools | Swipe-first fashion discovery for iOS, currently in TestFlight |
 
-## Selected work
+## Featured work
 
-### [homeops](https://github.com/andrei-iacobb/homeops)
+<a href="https://github.com/andrei-iacobb/homeops">
+  <img src="./assets/homeops.svg" alt="HomeOps - GitOps-managed Talos Kubernetes homelab" width="100%">
+</a>
 
-The declarative source of truth for my homelab: a Talos Linux Kubernetes cluster on Proxmox, continuously reconciled by Flux. It runs dozens of self-hosted services with Cilium networking, encrypted secrets, automated updates and off-cluster backups.
+Declarative infrastructure for a Talos Linux Kubernetes cluster on Proxmox, continuously reconciled by Flux. Around 96 app units across 10 namespaces make this the platform I depend on, not a demo cluster. **[View repository ↗](https://github.com/andrei-iacobb/homeops)**
 
-`Kubernetes` `Talos Linux` `Flux CD` `Cilium` `SOPS` `Renovate`
+<br>
 
-### [NeatPlan](https://github.com/andrei-iacobb/neatplan)
+<a href="https://github.com/andrei-iacobb/neatplan">
+  <img src="./assets/neatplan.svg" alt="NeatPlan - live mobile workflows for cleaning operations" width="100%">
+</a>
 
-A commissioned cleaning operations platform with role-based workflows, scheduling, live activity tracking and an installable mobile interface for staff in the field.
+Commissioned cleaning-operations software that turns rooms, equipment and recurring schedules into a live mobile workflow for field teams. **[View repository ↗](https://github.com/andrei-iacobb/neatplan)**
 
-`Next.js` `TypeScript` `PostgreSQL` `Prisma` `PWA`
+## In the lab
 
-### [StaffClock](https://github.com/andrei-iacobb/StaffClock)
+| Project | What it does | Built with |
+|:---|:---|:---|
+| **[replicarr ↗](https://github.com/andrei-iacobb/replicarr)** | Approval-driven, bandwidth-friendly media replication for Sonarr and Radarr | Next.js, TypeScript, Prisma, SQLite |
+| **[sharerr ↗](https://github.com/andrei-iacobb/sharerr)** | Invite-only Plex sharing with scoped access, expiring PINs and in-browser playback | Next.js, TypeScript, PostgreSQL, Plex |
+| **[website ↗](https://github.com/andrei-iacobb/website)** | The self-hosted portfolio behind [andrei.iacob.co.uk](https://andrei.iacob.co.uk) | Next.js, TypeScript, Redis, Kubernetes |
 
-A local desktop kiosk for staff clock-in, clock-out and breaks, with visitor records, automated PDF timesheets, printing, archiving and continuous backups.
+## Build → run → operate
 
-`Python` `PyQt6` `SQLite` `ReportLab`
+| `BUILD / PRODUCT` | `RUN / PLATFORM` | `OPERATE / SYSTEMS` |
+|:---|:---|:---|
+| Next.js, React, TypeScript, PostgreSQL, Prisma | Kubernetes, Talos Linux, Flux CD, Docker | Proxmox, Cilium, Cloudflare, Linux |
 
-### [iLO4 Fan Controller](https://github.com/andrei-iacobb/ilo4-fan-controller)
+I prefer owning the whole path: requirements, interface, backend, deployment and the boring-but-important production details.
 
-A self-hosted web interface and REST API for managing fan speeds on modified HPE Gen8 servers over SSH, built to make enterprise hardware practical in a home environment.
+## Let's build something
 
-`Next.js` `TypeScript` `REST API` `Docker` `SSH`
-
-## Toolbox
-
-| | Technologies |
-|---|---|
-| Product engineering | TypeScript, Next.js, React, PostgreSQL, Prisma, Tailwind CSS |
-| Infrastructure | Kubernetes, Talos Linux, Flux CD, Proxmox, Docker, Cilium, Cloudflare |
-| Other work | Python, PyQt6, Java, C++, Swift, ESP32 |
-
-## Get in touch
-
-I work with businesses on custom applications, day-to-day IT and self-hosted infrastructure. If that sounds useful, email me at [andrei@iacob.co.uk](mailto:andrei@iacob.co.uk).
+Have a workflow that has outgrown spreadsheets, or infrastructure that needs simplifying? [andrei@iacob.co.uk](mailto:andrei@iacob.co.uk)
