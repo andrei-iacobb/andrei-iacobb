@@ -1,58 +1,42 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/profile-light.svg">
-  <img alt="Andrei Iacob - software, infrastructure and operations" src="./assets/profile-light.svg" width="100%">
+  <img alt="Andrei Iacob, software developer in Bury St Edmunds" src="./assets/profile-light.svg" width="100%">
 </picture>
 
-<p align="center">
-  <a href="https://andrei.iacob.co.uk"><strong>Portfolio ↗</strong></a>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://linkedin.com/in/andreigiacob">LinkedIn ↗</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="mailto:andrei@iacob.co.uk">Email ↗</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://git.iacob.co.uk/andrei">Forgejo ↗</a>
-</p>
+[Portfolio](https://andrei.iacob.co.uk) · [LinkedIn](https://linkedin.com/in/andreigiacob) · [Email](mailto:andrei@iacob.co.uk) · [Forgejo](https://git.iacob.co.uk/andrei)
 
-Software developer working across product, infrastructure and operations. I build tools for real teams and own the path beneath them, from the first workflow to the production cluster.
+I'm a software developer and Computer Science student. I tend to own a project end to end, from the first commit to the box it runs on. These days that mostly means Next.js, PostgreSQL and a Kubernetes cluster in my garage.
 
-Based in Bury St Edmunds, UK, while completing a BSc in Computer Science at Anglia Ruskin University.
+## Selected work
 
-## Shipping now
+### [HomeOps](https://github.com/andrei-iacobb/homeops)
 
-| `01 / VISITOR MANAGEMENT` | `02 / FLEET MANAGEMENT` | `03 / SWISH` |
-|:---|:---|:---|
-| Multi-site check-in, contractor validation and Android kiosk workflows | Live vehicle tracking, driver apps and customer-facing operations tools | Swipe-first fashion discovery for iOS, currently in TestFlight |
+The Git repository that runs my homelab: Talos Linux on Proxmox, reconciled by Flux, with Cilium for networking and SOPS for secrets. It currently deploys around 96 applications across 10 namespaces.
 
-## Featured work
+<sub>Talos Linux · Kubernetes · Flux CD · Cilium · SOPS · Proxmox</sub>
 
-<a href="https://github.com/andrei-iacobb/homeops">
-  <img src="./assets/homeops.svg" alt="HomeOps - GitOps-managed Talos Kubernetes homelab" width="100%">
-</a>
+### [NeatPlan](https://github.com/andrei-iacobb/neatplan)
 
-Declarative infrastructure for a Talos Linux Kubernetes cluster on Proxmox, continuously reconciled by Flux. Around 96 app units across 10 namespaces make this the platform I depend on, not a demo cluster. **[View repository ↗](https://github.com/andrei-iacobb/homeops)**
+A commissioned cleaning-management system for assigning work, tracking progress and giving staff a mobile-friendly schedule.
 
-<br>
+<sub>Next.js · TypeScript · PostgreSQL · Prisma · PWA</sub>
 
-<a href="https://github.com/andrei-iacobb/neatplan">
-  <img src="./assets/neatplan.svg" alt="NeatPlan - live mobile workflows for cleaning operations" width="100%">
-</a>
+## Other projects
 
-Commissioned cleaning-operations software that turns rooms, equipment and recurring schedules into a live mobile workflow for field teams. **[View repository ↗](https://github.com/andrei-iacobb/neatplan)**
+- **[Replicarr](https://github.com/andrei-iacobb/replicarr)** approves and copies selected films and series into lower-bandwidth Sonarr and Radarr libraries.
+- **[Sharerr](https://github.com/andrei-iacobb/sharerr)** creates expiring, PIN-protected links for selected media, with playback in the browser.
+- **[Portfolio](https://github.com/andrei-iacobb/website)** is the Next.js site running at [andrei.iacob.co.uk](https://andrei.iacob.co.uk).
 
-## In the lab
+## Current work
 
-| Project | What it does | Built with |
-|:---|:---|:---|
-| **[replicarr ↗](https://github.com/andrei-iacobb/replicarr)** | Approval-driven, bandwidth-friendly media replication for Sonarr and Radarr | Next.js, TypeScript, Prisma, SQLite |
-| **[sharerr ↗](https://github.com/andrei-iacobb/sharerr)** | Invite-only Plex sharing with scoped access, expiring PINs and in-browser playback | Next.js, TypeScript, PostgreSQL, Plex |
-| **[website ↗](https://github.com/andrei-iacobb/website)** | The self-hosted portfolio behind [andrei.iacob.co.uk](https://andrei.iacob.co.uk) | Next.js, TypeScript, Redis, Kubernetes |
+I'm currently building a multi-site visitor-management system, a fleet-management platform with driver apps, and Swish, a fashion-discovery app now in TestFlight.
 
-## Build → run → operate
+## Tools
 
-| `BUILD / PRODUCT` | `RUN / PLATFORM` | `OPERATE / SYSTEMS` |
-|:---|:---|:---|
-| Next.js, React, TypeScript, PostgreSQL, Prisma | Kubernetes, Talos Linux, Flux CD, Docker | Proxmox, Cilium, Cloudflare, Linux |
+- **Applications:** TypeScript, Next.js, React, PostgreSQL, Prisma and Swift
+- **Infrastructure:** Kubernetes, Talos Linux, Flux, Docker, Proxmox, Cilium and Linux
 
-I prefer owning the whole path: requirements, interface, backend, deployment and the boring-but-important production details.
+## Contact
 
-## Let's build something
-
-Have a workflow that has outgrown spreadsheets, or infrastructure that needs simplifying? [andrei@iacob.co.uk](mailto:andrei@iacob.co.uk)
+If you need a custom internal tool or help simplifying self-hosted infrastructure, email [andrei@iacob.co.uk](mailto:andrei@iacob.co.uk).

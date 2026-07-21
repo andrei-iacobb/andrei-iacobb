@@ -1,59 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
-  <title id="title">Andrei Iacob, software developer and systems builder</title>
-  <desc id="desc">A light technical banner showing Andrei's build, ship, run approach.</desc>
-  <defs>
-    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ef6a3a"/>
-      <stop offset="1" stop-color="#d5461a"/>
-    </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#d8d0c4" stroke-width="1"/>
-    </pattern>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="title desc">
+  <title id="title">Andrei Iacob</title>
+  <desc id="desc">Software developer in Bury St Edmunds, UK.</desc>
 
-  <rect x="1" y="1" width="1198" height="328" rx="22" fill="#f6f2e9" stroke="#d8d0c4" stroke-width="2"/>
-  <path d="M716 1H1178C1189 1 1199 11 1199 23V307C1199 319 1189 329 1177 329H652Z" fill="#eee8dd"/>
-  <path d="M716 1H1178C1189 1 1199 11 1199 23V307C1199 319 1189 329 1177 329H652Z" fill="url(#grid)" opacity="0.9"/>
+  <rect x="1" y="1" width="1198" height="228" rx="16" fill="#f6f2e9" stroke="#d8d0c4" stroke-width="2"/>
+  <line x1="760" y1="34" x2="760" y2="196" stroke="#d8d0c4"/>
 
-  <rect x="54" y="55" width="6" height="220" rx="3" fill="url(#accent)"/>
-  <text x="92" y="76" fill="#65615d" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="2.5">SOFTWARE / INFRASTRUCTURE / OPERATIONS</text>
-  <text x="88" y="153" fill="#1b1e24" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700" letter-spacing="-2">Andrei Iacob</text>
-  <text x="91" y="199" fill="#625e59" font-family="Arial, Helvetica, sans-serif" font-size="21">I build software and run the systems behind it.</text>
+  <text x="52" y="54" fill="#65615d" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" letter-spacing="2">SOFTWARE DEVELOPER</text>
+  <text x="48" y="126" fill="#1b1e24" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="700" letter-spacing="-2">Andrei Iacob</text>
+  <text x="52" y="169" fill="#625e59" font-family="Arial, Helvetica, sans-serif" font-size="15">Bury St Edmunds, UK · BSc Computer Science</text>
+  <rect x="52" y="195" width="58" height="3" rx="1.5" fill="#d5461a"/>
 
-  <g font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">
-    <rect x="91" y="236" width="188" height="32" rx="16" fill="#fbf8f2" stroke="#d8d0c4"/>
-    <text x="111" y="257" fill="#65615d">PRODUCT ENGINEERING</text>
-    <rect x="290" y="236" width="192" height="32" rx="16" fill="#fbf8f2" stroke="#d8d0c4"/>
-    <text x="310" y="257" fill="#65615d">SELF-HOSTED INFRA</text>
-    <rect x="493" y="236" width="92" height="32" rx="16" fill="#fbf8f2" stroke="#d8d0c4"/>
-    <text x="513" y="257" fill="#65615d">MOBILE</text>
+  <g fill="#35383d" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-style="italic">
+    <text x="814" y="72">I build web apps</text>
+    <text x="814" y="108">and look after the servers</text>
+    <text x="814" y="144">they run on.</text>
   </g>
-
-  <g transform="translate(754 48)" font-family="Arial, Helvetica, sans-serif">
-    <text x="0" y="13" fill="#65615d" font-size="12" font-weight="700" letter-spacing="2.4">FROM IDEA TO UPTIME / 2026</text>
-    <rect x="0" y="36" width="382" height="210" rx="16" fill="#f6f2e9" fill-opacity="0.92" stroke="#d8d0c4"/>
-    <path d="M61 132H191M191 132H321" stroke="#aaa29a" stroke-width="2" stroke-dasharray="5 7"/>
-    <circle cx="61" cy="132" r="17" fill="#d5461a"/>
-    <circle cx="191" cy="132" r="17" fill="#f6f2e9" stroke="#ef6a3a" stroke-width="3"/>
-    <circle cx="321" cy="132" r="17" fill="#f6f2e9" stroke="#bd765a" stroke-width="3"/>
-    <circle cx="61" cy="132" r="4" fill="#f6f2e9"/>
-    <circle cx="191" cy="132" r="4" fill="#ef6a3a"/>
-    <circle cx="321" cy="132" r="4" fill="#bd765a"/>
-
-    <g fill="#8a837d" font-size="11" font-weight="700" letter-spacing="1.5">
-      <text x="49" y="88">01</text>
-      <text x="179" y="88">02</text>
-      <text x="309" y="88">03</text>
-    </g>
-    <g fill="#1b1e24" font-size="16" font-weight="700" letter-spacing="1.4" text-anchor="middle">
-      <text x="61" y="183">BUILD</text>
-      <text x="191" y="183">SHIP</text>
-      <text x="321" y="183">RUN</text>
-    </g>
-    <g fill="#65615d" font-size="11" text-anchor="middle">
-      <text x="61" y="203">product</text>
-      <text x="191" y="203">production</text>
-      <text x="321" y="203">platform</text>
-    </g>
-  </g>
+  <text x="814" y="188" fill="#7d7771" font-family="Menlo, Monaco, Consolas, monospace" font-size="11" letter-spacing="1.5">ANDREI.IACOB.CO.UK</text>
 </svg>
