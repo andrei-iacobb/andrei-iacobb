@@ -14,13 +14,13 @@ I'm a software developer and Computer Science student. I tend to own a project e
 
 The Git repository that runs my homelab: Talos Linux on Proxmox, reconciled by Flux, with Cilium for networking and SOPS for secrets. It currently deploys around 96 applications across 10 namespaces.
 
-<sub>Talos Linux · Kubernetes · Flux CD · Cilium · SOPS · Proxmox</sub>
+*Talos Linux · Kubernetes · Flux CD · Cilium · SOPS · Proxmox*
 
 ### [NeatPlan](https://github.com/andrei-iacobb/neatplan)
 
 A commissioned cleaning-management system for assigning work, tracking progress and giving staff a mobile-friendly schedule.
 
-<sub>Next.js · TypeScript · PostgreSQL · Prisma · PWA</sub>
+*Next.js · TypeScript · PostgreSQL · Prisma · PWA*
 
 ## Other projects
 
