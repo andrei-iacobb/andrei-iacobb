@@ -6,36 +6,30 @@ I build web applications and internal tools, then deploy and run them on infrast
 
 [Portfolio](https://andrei.iacob.co.uk) · [Email](mailto:andrei@iacob.co.uk) · [LinkedIn](https://linkedin.com/in/andreigiacob)
 
-## Current work
+## Work
 
-- **Visitor management:** multi-site check-in, contractor validation and Android kiosk workflows
-- **Fleet management:** live vehicle tracking, driver applications and customer-facing operations tools
-- **Swish:** swipe-first fashion discovery for iOS, currently in TestFlight
+### Visitor Management ![Commissioned](https://img.shields.io/badge/Commissioned-555555?style=flat-square) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
 
-## Selected projects
+Multi-site check-in, contractor validation and native Android kiosk workflows.
 
-### HomeOps
+### Fleet Management ![Commissioned](https://img.shields.io/badge/Commissioned-555555?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
-Configuration for the Kubernetes cluster in my garage. Talos Linux runs on Proxmox, while Flux keeps the deployed state in sync with Git. The cluster currently runs around 96 applications across 10 namespaces.
+Live vehicle tracking, driver applications and customer-facing operations tools.
 
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Talos Linux](https://img.shields.io/badge/Talos_Linux-FF7300?style=flat-square&logo=linux&logoColor=white) ![Flux CD](https://img.shields.io/badge/Flux_CD-5468FF?style=flat-square&logo=flux&logoColor=white) ![Cilium](https://img.shields.io/badge/Cilium-F8C517?style=flat-square&logo=cilium&logoColor=black) ![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)
+### Swish ![TestFlight](https://img.shields.io/badge/TestFlight-0D96F6?style=flat-square&logo=apple&logoColor=white) ![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black) ![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Convex](https://img.shields.io/badge/Convex-EE342F?style=flat-square&logo=convex&logoColor=white)
 
-[Repository](https://github.com/andrei-iacobb/homeops)
+Swipe-first fashion discovery for iOS, currently in TestFlight.
 
-### NeatPlan
+### HomeOps ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Talos Linux](https://img.shields.io/badge/Talos_Linux-FF7300?style=flat-square&logo=linux&logoColor=white) ![Flux CD](https://img.shields.io/badge/Flux_CD-5468FF?style=flat-square&logo=flux&logoColor=white) ![Cilium](https://img.shields.io/badge/Cilium-F8C517?style=flat-square&logo=cilium&logoColor=black) ![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)
 
-**Work in progress.** A cleaning-management system for scheduling work, assigning rooms and equipment, and recording progress from mobile devices.
+Configuration for the Kubernetes cluster in my garage. Talos Linux runs on Proxmox, while Flux keeps the deployed state in sync with Git. The cluster currently runs around 96 applications across 10 namespaces. [Repository](https://github.com/andrei-iacobb/homeops)
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white) ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
+### NeatPlan ![Work in progress](https://img.shields.io/badge/Work_in_progress-C69026?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white) ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
 
-[Repository](https://github.com/andrei-iacobb/neatplan)
+A cleaning-management system for scheduling work, assigning rooms and equipment, and recording progress from mobile devices. [Repository](https://github.com/andrei-iacobb/neatplan)
 
-### Portfolio
+### Portfolio ![Live](https://img.shields.io/badge/Live-238636?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 
-The source code for [andrei.iacob.co.uk](https://andrei.iacob.co.uk), where I document commissioned work, personal projects and the homelab. The site is hosted on my Kubernetes cluster.
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-
-[Live site](https://andrei.iacob.co.uk) · [Repository](https://github.com/andrei-iacobb/website)
+The source code for [andrei.iacob.co.uk](https://andrei.iacob.co.uk), where I document commissioned work, personal projects and the homelab. The site is hosted on my Kubernetes cluster. [Repository](https://github.com/andrei-iacobb/website)
 
 **Project enquiries:** [andrei@iacob.co.uk](mailto:andrei@iacob.co.uk)
