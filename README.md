@@ -16,23 +16,37 @@ I build web applications and internal tools, then deploy and run them on infrast
 
 ## Selected projects
 
-### [HomeOps](https://github.com/andrei-iacobb/homeops)
+### HomeOps
 
 Configuration for the Kubernetes cluster in my garage. Talos Linux runs on Proxmox, while Flux keeps the deployed state in sync with Git. The cluster currently runs around 96 applications across 10 namespaces.
 
 *Kubernetes, Talos Linux, Flux, Cilium, SOPS, Proxmox*
 
-### [NeatPlan](https://github.com/andrei-iacobb/neatplan)
+[Repository](https://github.com/andrei-iacobb/homeops)
 
-A commissioned cleaning-management system for scheduling work, assigning rooms and equipment, and recording progress from mobile devices.
+### NeatPlan
+
+**Work in progress.** A cleaning-management system for scheduling work, assigning rooms and equipment, and recording progress from mobile devices.
 
 *Next.js, TypeScript, PostgreSQL, Prisma, PWA*
 
-## Other projects
+[Repository](https://github.com/andrei-iacobb/neatplan)
 
-- **[Replicarr](https://github.com/andrei-iacobb/replicarr):** selects films and series from Sonarr and Radarr and sends approved items to lower-bandwidth secondary libraries
-- **[Sharerr](https://github.com/andrei-iacobb/sharerr):** creates expiring, PIN-protected links for selected media, with playback in the browser
-- **[Portfolio](https://github.com/andrei-iacobb/website):** source code for [andrei.iacob.co.uk](https://andrei.iacob.co.uk), hosted on my Kubernetes cluster
+### Portfolio
+
+The source code for [andrei.iacob.co.uk](https://andrei.iacob.co.uk), where I document commissioned work, personal projects and the homelab. The site is hosted on my Kubernetes cluster.
+
+*Next.js, TypeScript, Redis, Tailwind CSS, Kubernetes*
+
+[Live site](https://andrei.iacob.co.uk) · [Repository](https://github.com/andrei-iacobb/website)
+
+### Informate
+
+A university news-research project that collects and summarises articles, organises them by topic and produces cross-source briefings with a locally hosted language model.
+
+*Java, React, PostgreSQL, Ollama, Docker*
+
+[Repository](https://github.com/andrei-iacobb/Informate)
 
 ## Technical focus
 
